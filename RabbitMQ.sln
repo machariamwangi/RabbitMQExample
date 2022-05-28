@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32510.428
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StandardQueue", "StandardQueue\StandardQueue.csproj", "{20FB0532-D07F-4B42-84E9-12C8FA28E9D6}"
 EndProject
@@ -28,6 +28,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectRouting_Subscriber1", "DirectRouting_Subscriber1\DirectRouting_Subscriber1.csproj", "{596F6DF9-4791-49F9-B6FC-46C0F7859397}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectRouting_Subscriber2", "DirectRouting_Subscriber2\DirectRouting_Subscriber2.csproj", "{441041F6-265C-4BC1-A6BA-B56BF24CBB3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payments API", "..\5-rabbitmq-by-example-m5-exercise-files\Module 5\Payments API.csproj", "{BA9AA68C-0AE5-403D-8E24-C1010431E598}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,6 +73,10 @@ Global
 		{441041F6-265C-4BC1-A6BA-B56BF24CBB3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{441041F6-265C-4BC1-A6BA-B56BF24CBB3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{441041F6-265C-4BC1-A6BA-B56BF24CBB3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA9AA68C-0AE5-403D-8E24-C1010431E598}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA9AA68C-0AE5-403D-8E24-C1010431E598}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA9AA68C-0AE5-403D-8E24-C1010431E598}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA9AA68C-0AE5-403D-8E24-C1010431E598}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -84,5 +90,8 @@ Global
 		{BCA581BD-0631-486E-8E35-C6514C23577F} = {DFCA6D13-19A1-41FD-9581-C78FDD670671}
 		{596F6DF9-4791-49F9-B6FC-46C0F7859397} = {DFCA6D13-19A1-41FD-9581-C78FDD670671}
 		{441041F6-265C-4BC1-A6BA-B56BF24CBB3C} = {DFCA6D13-19A1-41FD-9581-C78FDD670671}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {10DD2A57-700C-4850-BDA1-61C22B824269}
 	EndGlobalSection
 EndGlobal
